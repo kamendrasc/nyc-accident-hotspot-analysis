@@ -12,6 +12,21 @@ The goal was to transform raw accident data into actionable insights using geosp
 
 ---
 
+## Data Source
+
+The dataset used in this project is publicly available:
+
+[NYC Motor Vehicle Collisions Dataset](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
+
+Due to size constraints, the dataset is not included in this repository.
+
+### Key Fields Used
+- latitude, longitude → for hotspot mapping
+- borough → regional grouping
+- accident_total → accident count
+- injuries_total → injury count
+- fatalities_total → fatality count
+
 ## Key Features
 - Geospatial hotspot mapping using latitude and longitude
 - Aggregated metrics: total accidents, injuries, and fatalities
